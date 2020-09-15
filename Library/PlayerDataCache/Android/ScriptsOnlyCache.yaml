@@ -4,10 +4,9 @@ ScriptsOnlyBuild:
     - ONSPSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
-    Oculus.VR.dll:
-    - OVRCameraRig
-    - OVRHeadsetEmulator
-    - OVRManager
+    - OVRConfig
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -40,7 +39,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 64
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -49,15 +48,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11466}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 11610}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 12154}
-    - Class: 114
-      Script: {instanceID: 12392}
-    - Class: 114
-      Script: {instanceID: 13708}
+      Script: {instanceID: 13826}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1357,6 +1352,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: b00ce1f32326f1cd1160488ffd14965a
+    assemblyName: Oculus.VR.Editor.dll
+    namespaceName: 
+    className: OVRConfig
+  - hash:
+      serializedVersion: 2
       Hash: 8b9f42d72019bde2f9fe0667762eaff3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1640,4 +1641,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Hatsuka/Documents/Unityproject/VRtest/hoge.apk
+  playerPath: C:/Users/yamahita-aki/copyProject/VRPractice/vr.apk
