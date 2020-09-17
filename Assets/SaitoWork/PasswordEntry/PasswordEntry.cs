@@ -19,6 +19,7 @@ public class PasswordEntry : MonoBehaviour
     Color tempC;
 
     bool isBlinking;
+    bool dropped;
     void Start()
     {
         TMP = TextObj.GetComponent<TextMeshProUGUI>();
@@ -49,16 +50,22 @@ public class PasswordEntry : MonoBehaviour
 
     public void number_enter()
     {
-        if (TMP.text == RandomPassword.instance.KeyPassword)
+        if (TMP.text == RandomPassword.instance.KeyPassword && !dropped)
         {
             Instantiate(Ball, BallSpawnPoint.transform);
             Instantiate(Memopad, MemopadSpawnPoint.transform);
+            dropped = true;//1回のみの制限用
+
         }
         else
         {
-            if (isBlinking == false)
+            if (!isBlinking && !dropped)
             {
                 StartCoroutine("InputError");
+            }
+            else
+            {
+                return;
             }
 
         }

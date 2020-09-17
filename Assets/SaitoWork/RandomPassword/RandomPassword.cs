@@ -30,7 +30,7 @@ public class RandomPassword : MonoBehaviour
             {
                 KeyPassword += ",";
             }
-            KeyPassword += Random.Range(0, 10);
+            KeyPassword += Random.Range(1, 10);
         }
         string[] SplitKeyPassword = KeyPassword.Split(',');
         password_A = SplitKeyPassword[0];
