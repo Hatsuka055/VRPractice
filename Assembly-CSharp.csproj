@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Keypad\Script\Playsound.cs" />
     <Compile Include="Assets\LogDisplay\LogButton.cs" />
     <Compile Include="Assets\LogDisplay\LogDisplay.cs" />
     <Compile Include="Assets\LogDisplay\Tes2.cs" />
@@ -219,7 +220,16 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
+    <Compile Include="Assets\Parabox Primitives\Classes\InteractivePrimitive.cs" />
+    <Compile Include="Assets\Parabox Primitives\Classes\InteractivePrimitivesMath.cs" />
+    <Compile Include="Assets\Parabox Primitives\Enum\InteractivePrimitiveEnum.cs" />
+    <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractiveCone.cs" />
+    <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractiveCube.cs" />
+    <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractiveCylinder.cs" />
+    <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractivePlane.cs" />
+    <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractivePrism.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
+    <None Include="Assets\Stage_Gimmick_Part\Memo\ReadMe\ReadMe.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
@@ -246,6 +256,7 @@
     <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered Opaque.shader" />
+    <None Include="Assets\Parabox Primitives\README.txt" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
