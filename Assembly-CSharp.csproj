@@ -220,6 +220,7 @@
     <Compile Include="Assets\SaitoWork\HandleBox\HandleBox.cs" />
     <Compile Include="Assets\SaitoWork\KeySystem\Door.cs" />
     <Compile Include="Assets\SaitoWork\PasswordEntry\PasswordEntry.cs" />
+    <Compile Include="Assets\SaitoWork\RandomPassword\PasswordDisplay.cs" />
     <Compile Include="Assets\SaitoWork\RandomPassword\RandomPassword.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
