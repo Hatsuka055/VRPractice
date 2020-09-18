@@ -217,6 +217,7 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
     <Compile Include="Assets\SaitoWork\FPSCounter\FPSCounter.cs" />
+    <Compile Include="Assets\SaitoWork\HandleBox\HandleBox.cs" />
     <Compile Include="Assets\SaitoWork\KeySystem\Door.cs" />
     <Compile Include="Assets\SaitoWork\PasswordEntry\PasswordEntry.cs" />
     <Compile Include="Assets\SaitoWork\RandomPassword\RandomPassword.cs" />
