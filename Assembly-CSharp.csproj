@@ -62,16 +62,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AssetStore\時計\Scripts\Clock.cs" />
     <Compile Include="Assets\AssetStore\箱案2\Scripts\CubeRobot.cs" />
     <Compile Include="Assets\AssetStore\箱案2\Scripts\EngineEffect.cs" />
     <Compile Include="Assets\AssetStore\箱案2\demo\Scripts\Camerademo.cs" />
     <Compile Include="Assets\AssetStore\箱案2\demo\Scripts\CubeRobotdemo.cs" />
+    <Compile Include="Assets\BallThrow_脱出ゲーム処理\BallShot.cs" />
+    <Compile Include="Assets\BallThrow_脱出ゲーム処理\Target.cs" />
     <Compile Include="Assets\Keypad\Script\Playsound.cs" />
-    <Compile Include="Assets\LogDisplay\LogButton.cs" />
-    <Compile Include="Assets\LogDisplay\LogDisplay.cs" />
-    <Compile Include="Assets\LogDisplay\Tes2.cs" />
-    <Compile Include="Assets\LogDisplay\Test.cs" />
+    <Compile Include="Assets\LogDisplay_脱出ゲーム処理\LogButton.cs" />
+    <Compile Include="Assets\LogDisplay_脱出ゲーム処理\LogDisplay.cs" />
+    <Compile Include="Assets\LogDisplay_脱出ゲーム処理\Tes2.cs" />
+    <Compile Include="Assets\LogDisplay_脱出ゲーム処理\Test.cs" />
+    <Compile Include="Assets\NumericPanel_脱出ゲーム処理\NumericInput.cs" />
+    <Compile Include="Assets\NumericPanel_脱出ゲーム処理\NumericPanel.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -233,8 +236,10 @@
     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractiveCylinder.cs" />
     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractivePlane.cs" />
     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractivePrism.cs" />
+    <Compile Include="Assets\PokeWithStick_脱出ゲーム処理\PlayerWork.cs" />
+    <Compile Include="Assets\PokeWithStick_脱出ゲーム処理\Stick.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
-    <None Include="Assets\Stage_Gimmick_Part\Memo\ReadMe\ReadMe.txt" />
+    <None Include="Assets\Stage_Gimmick_脱出ゲーム用\Memo\ReadMe\ReadMe.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />

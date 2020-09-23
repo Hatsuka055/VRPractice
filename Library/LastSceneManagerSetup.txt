@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/StageObject_\u30AE\u30DF\u30C3\u30AF\u90E8\u5C4B/StageScene.unity"
+- path: "Assets/BallThrow_\u8131\u51FA\u30B2\u30FC\u30E0\u51E6\u7406/BallThrow.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0
