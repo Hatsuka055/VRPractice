@@ -360,6 +360,18 @@ Transform:
   m_Father: {fileID: 185681952}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &127303026 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4005403695597093682, guid: 54c705cea562c004891e03809ac9149d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1041013052}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ee563ee9bffe744b17d0181d8526bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &132221324
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,6 +2123,18 @@ Transform:
   m_Father: {fileID: 185681952}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &524898128 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2042027804981809801, guid: 54c705cea562c004891e03809ac9149d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1041013052}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ee563ee9bffe744b17d0181d8526bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &546876588
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,6 +2972,8 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+  initDistance: 1
+  reserved: {fileID: 0}
 --- !u!1 &636029518
 GameObject:
   m_ObjectHideFlags: 0
@@ -4435,6 +4461,16 @@ PrefabInstance:
       propertyPath: m_grabVolumes.Array.data[1]
       value: 
       objectReference: {fileID: 1041013053}
+    - target: {fileID: 2042027804981809801, guid: 54c705cea562c004891e03809ac9149d,
+        type: 3}
+      propertyPath: conRight
+      value: 
+      objectReference: {fileID: 524898128}
+    - target: {fileID: 2042027804981809801, guid: 54c705cea562c004891e03809ac9149d,
+        type: 3}
+      propertyPath: conLeft
+      value: 
+      objectReference: {fileID: 127303026}
     - target: {fileID: 4005403695597093682, guid: 54c705cea562c004891e03809ac9149d,
         type: 3}
       propertyPath: m_grabVolumes.Array.size
@@ -4460,6 +4496,16 @@ PrefabInstance:
       propertyPath: m_grabVolumes.Array.data[1]
       value: 
       objectReference: {fileID: 1041013056}
+    - target: {fileID: 4005403695597093682, guid: 54c705cea562c004891e03809ac9149d,
+        type: 3}
+      propertyPath: conLeft
+      value: 
+      objectReference: {fileID: 127303026}
+    - target: {fileID: 4005403695597093682, guid: 54c705cea562c004891e03809ac9149d,
+        type: 3}
+      propertyPath: conRight
+      value: 
+      objectReference: {fileID: 524898128}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54c705cea562c004891e03809ac9149d, type: 3}
 --- !u!136 &1041013053 stripped
@@ -5221,6 +5267,8 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+  initDistance: 1
+  reserved: {fileID: 0}
 --- !u!54 &1169024821
 Rigidbody:
   m_ObjectHideFlags: 0

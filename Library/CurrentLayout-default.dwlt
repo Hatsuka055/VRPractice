@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 45
+  controlID: 94
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 263}
   m_MaxSize: {x: 4002, y: 12063}
   vertical: 1
-  controlID: 104
+  controlID: 69
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 181
+  controlID: 186
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_MinSize: {x: 1188, y: 442}
   m_MaxSize: {x: 26008, y: 12063}
   vertical: 0
-  controlID: 141
+  controlID: 121
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -796,8 +796,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa410000
-    m_LastClickedID: 16810
+    m_SelectedIDs: a2410000
+    m_LastClickedID: 16802
     m_ExpandedIDs: 000000009841000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -853,22 +853,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 1e080000260800001e3c000056340000e63e0000784000007c330000ce57daff360800000871ffff6a2afbffe293faff086bfaff4a1cfaff1c96e8ff2ca4dbffc0e7d3ff3e080000d43a0000ea300000ca350000f8350000c0350000c235000042080000fa350000c6370000cc3f0000844d000058f4eaff024300001c380000a6350000982f0000f0370000a23c0000b03c0000e2380000b23c0000442e0000b43c00009a8e00003c3d0000463c00001e580000160001003091000080400000ce2c0000623c0000e63300002a330000fc340000ca3400000e3a000000000000962c0000ba2c00000a2d000074350000c42e00007c2f0000402e0000323f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: OffhandGrabbable
-      m_OriginalName: OffhandGrabbable
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12344
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 14}
     m_CreateAssetUtility:
@@ -881,7 +881,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 149
+  m_DirectoriesAreaWidth: 121
 --- !u!114 &28
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1060,7 +1060,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.057899505, y: -0.9367264, z: 0.18677521, w: 0.29038647}
     speed: 2
-    m_Value: {x: 0.057898987, y: -0.936718, z: 0.18677354, w: 0.29038388}
+    m_Value: {x: -0.057898987, y: 0.936718, z: -0.18677354, w: -0.29038388}
   m_Size:
     m_Target: 6.983724
     speed: 2

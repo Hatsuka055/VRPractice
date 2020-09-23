@@ -315,10 +315,14 @@ MonoBehaviour:
   m_parentHeldObject: 0
   m_moveHandPosition: 0
   m_gripTransform: {fileID: 0}
-  m_grabVolumes: []
-  m_controller: 0
+  m_grabVolumes:
+  - {fileID: 136111693059906026}
+  - {fileID: 136148732807810322}
+  m_controller: 2
   m_parentTransform: {fileID: 0}
   m_player: {fileID: 0}
+  conRight: {fileID: 2042027804981809801}
+  conLeft: {fileID: 4005403695597093682}
 --- !u!1 &1295208161851564
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,10 +724,14 @@ MonoBehaviour:
   m_parentHeldObject: 0
   m_moveHandPosition: 0
   m_gripTransform: {fileID: 0}
-  m_grabVolumes: []
-  m_controller: 0
+  m_grabVolumes:
+  - {fileID: 136737190267427872}
+  - {fileID: 136830217389062990}
+  m_controller: 1
   m_parentTransform: {fileID: 0}
   m_player: {fileID: 0}
+  conRight: {fileID: 2042027804981809801}
+  conLeft: {fileID: 4005403695597093682}
 --- !u!1 &1699357159429228
 GameObject:
   m_ObjectHideFlags: 0
