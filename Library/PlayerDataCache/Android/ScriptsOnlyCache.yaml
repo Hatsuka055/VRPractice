@@ -29,9 +29,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -40,11 +48,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12198}
+      Script: {instanceID: 12216}
     - Class: 114
-      Script: {instanceID: 13730}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 13808}
+      Script: {instanceID: 13826}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1633,4 +1641,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Hatsuka/Documents/Unityproject/VRtest/hoge.apk
+  playerPath: C:/Users/yamahita-aki/copyProject/VRPractice/vr.apk
