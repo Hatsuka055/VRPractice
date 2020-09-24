@@ -346,7 +346,8 @@ public class OVRGrabber : MonoBehaviour
 
     protected void GrabEnd()
     {
-        if (m_grabbedObj != null)
+		Debug.Log(this.gameObject.name + "‚Ì•û‚ÌŽè‚ð•ú‚µ‚½");
+		if (m_grabbedObj != null)
         {
 			OVRPose localPose = new OVRPose { position = OVRInput.GetLocalControllerPosition(m_controller), orientation = OVRInput.GetLocalControllerRotation(m_controller) };
             OVRPose offsetPose = new OVRPose { position = m_anchorOffsetPosition, orientation = m_anchorOffsetRotation };
@@ -361,6 +362,7 @@ public class OVRGrabber : MonoBehaviour
 
         // Re-enable grab volumes to allow overlap events
         GrabVolumeEnable(true);
+		Debug.Log(this.gameObject.name + "‚ª’Í‚ß‚é‚æ‚¤‚É‚È‚Á‚½");
     }
 
     protected void GrabbableRelease(Vector3 linearVelocity, Vector3 angularVelocity)
