@@ -8,14 +8,13 @@ public class Door : MonoBehaviour
     /// <summary>
     /// Written　Saito Takahiro
     /// </summary>
-    Quaternion ToRotation;
+    [SerializeField]Vector3 ToRotation;
     [SerializeField] private float rotateSpeed = 1;
     private bool Unlocked = false;
     GameObject key;
-
     private void Start()
     {
-        ToRotation = Quaternion.Euler(0, 90, 0);
+        //ToRotation = Quaternion.Euler(transform.parent.gameObject.transform.localRotation.x, 90, transform.parent.gameObject.transform.localRotation.z);
     }
     void Update()
     {
@@ -25,7 +24,7 @@ public class Door : MonoBehaviour
             {
                 key.transform.localPosition = Vector3.zero;
             }
-            transform.parent.gameObject.transform.rotation = Quaternion.Slerp(transform.rotation, ToRotation, rotateSpeed * Time.deltaTime);
+            transform.parent.gameObject.transform.localRotation = Quaternion.Slerp(transform.parent.gameObject.transform.localRotation, Quaternion.Euler(ToRotation), rotateSpeed * Time.deltaTime);
         }
     }
     private void OnTriggerEnter(Collider other)
