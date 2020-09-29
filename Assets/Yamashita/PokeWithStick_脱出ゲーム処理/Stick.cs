@@ -1,9 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[RequireComponent(typeof (OVRGrabbable))]
+/// <summary>
+/// 鍵をつつく棒の処理
+/// </summary>
 public class Stick : MonoBehaviour {
+    OVRGrabbable grabbable;
 
+/*デスクトップデバッグ用記述
     [SerializeField]
     private readonly float MOVING_PLACE_TIME = (float)0.5;//棒を上に上げる時間
 
@@ -17,6 +22,7 @@ public class Stick : MonoBehaviour {
     private float moveZ = (float)0.01;
 
     // Start is called before the first frame update
+
     void Start() {
         movingPlaceTimer = 99;//初期値
     }//Start
@@ -44,10 +50,16 @@ public class Stick : MonoBehaviour {
         }//if
         movingPlaceTimer += Time.deltaTime;
     }//Update
+*/ //デスクトップデバッグ用記述
 
+    void Start(){
+        grabbable = this.GetComponent<OVRGrabbable>();
+        grabbable.enabled = false;
+    }
     private void OnCollisionEnter(Collision col) {
         if(col.gameObject.tag == "Key") {
             col.gameObject.GetComponent<Rigidbody>().useGravity = true;
+            grabbable.enabled = true;
         }//if
     }//OnCollisionEnter
 }
