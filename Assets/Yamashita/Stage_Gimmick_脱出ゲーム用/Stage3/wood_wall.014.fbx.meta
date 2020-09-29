@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: bd97669d51f5a43498ab4ea2cdbf72df
-timeCreated: 1491827576
+guid: bce9d424477b3ff4bad18a5a971b29b5
+timeCreated: 1491827584
 licenseType: Store
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: wood_wall.014
+    4300000: books
   materials:
     importMaterials: 1
     materialName: 0

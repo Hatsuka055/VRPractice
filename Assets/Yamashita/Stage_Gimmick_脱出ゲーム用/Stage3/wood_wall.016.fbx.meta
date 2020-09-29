@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f329a10e2b371294da89624f0dde810b
+guid: d0880fdce7139a84ca7334ef49053331
 timeCreated: 1491827582
 licenseType: Store
 ModelImporter:
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: wood_wall.016
+    4300000: bucket
   materials:
     importMaterials: 1
     materialName: 0

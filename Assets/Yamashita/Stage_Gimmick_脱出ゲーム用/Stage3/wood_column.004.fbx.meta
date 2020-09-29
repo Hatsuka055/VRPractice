@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e7c782f134d9a3f4baf75f2e7a94deb9
+guid: 37a3e08fdc113e3428ba17164c5f21e1
 timeCreated: 1491827580
 licenseType: Store
 ModelImporter:
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: wood_column.004
+    4300000: bottle.003
   materials:
     importMaterials: 1
     materialName: 0
