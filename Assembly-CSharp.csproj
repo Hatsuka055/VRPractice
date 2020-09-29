@@ -81,11 +81,17 @@
     <Compile Include="Assets\Parabox Primitives\MonoBehaviours\InteractivePrism.cs" />
     <Compile Include="Assets\PokeWithStick_脱出ゲーム処理\PlayerWork.cs" />
     <Compile Include="Assets\PokeWithStick_脱出ゲーム処理\Stick.cs" />
+    <Compile Include="Assets\SaitoWork\Clock\Clock\Scripts\Clock.cs" />
+    <Compile Include="Assets\SaitoWork\FPSCounter\FPSCounter.cs" />
+    <Compile Include="Assets\SaitoWork\HandleBox\HandleBox.cs" />
+    <Compile Include="Assets\SaitoWork\KeySystem\Door.cs" />
+    <Compile Include="Assets\SaitoWork\PasswordEntry\PasswordEntry.cs" />
+    <Compile Include="Assets\SaitoWork\RandomPassword\PasswordDisplay.cs" />
+    <Compile Include="Assets\SaitoWork\RandomPassword\RandomPassword.cs" />
     <Compile Include="Assets\okazaki\EscapegameGrabber.cs" />
     <Compile Include="Assets\okazaki\OffhandGrabbable.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\Stage_Gimmick_脱出ゲーム用\Memo\ReadMe\ReadMe.txt" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
@@ -686,6 +692,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{4BEC4D00-6BA7-20A7-CF59-3B071FAF0D9F}</Project>
+      <Name>Oculus.VR</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

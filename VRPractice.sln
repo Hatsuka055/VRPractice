@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D9DFE0FF-AEE1-EB6B-B643-135CCEAA2551}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR", "Oculus.VR.csproj", "{4BEC4D00-6BA7-20A7-CF59-3B071FAF0D9F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{B2A7835F-47B3-3EB2-E6BD-E275C4A6BAB4}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{D9DFE0FF-AEE1-EB6B-B643-135CCEAA2551}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9DFE0FF-AEE1-EB6B-B643-135CCEAA2551}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9DFE0FF-AEE1-EB6B-B643-135CCEAA2551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEC4D00-6BA7-20A7-CF59-3B071FAF0D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEC4D00-6BA7-20A7-CF59-3B071FAF0D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEC4D00-6BA7-20A7-CF59-3B071FAF0D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEC4D00-6BA7-20A7-CF59-3B071FAF0D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2A7835F-47B3-3EB2-E6BD-E275C4A6BAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2A7835F-47B3-3EB2-E6BD-E275C4A6BAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2A7835F-47B3-3EB2-E6BD-E275C4A6BAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
