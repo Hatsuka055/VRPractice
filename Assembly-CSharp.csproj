@@ -217,6 +217,7 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
+    <Compile Include="Assets\SaitoWork\Alert\Alert.cs" />
     <Compile Include="Assets\SaitoWork\Clock\Clock\Scripts\Clock.cs" />
     <Compile Include="Assets\SaitoWork\FPSCounter\FPSCounter.cs" />
     <Compile Include="Assets\SaitoWork\HandleBox\HandleBox.cs" />
