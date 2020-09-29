@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ec77cb11305cae47b803cf734a41e70
+guid: 5ceda40414e31f143b4eced0409e2bdc
 timeCreated: 1491827570
 licenseType: Store
 ModelImporter:
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: wood_wall.007
+    4300000: cupboard
   materials:
     importMaterials: 1
     materialName: 0

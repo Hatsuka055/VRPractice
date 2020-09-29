@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 2d34af1f94388b649b0d4cfca24ddad0
-timeCreated: 1491827562
+guid: 7ec8cf3785f677c418c3c92eb4ebe0d6
+timeCreated: 1491827572
 licenseType: Store
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: platform.003
+    4300000: book
   materials:
     importMaterials: 1
     materialName: 0
