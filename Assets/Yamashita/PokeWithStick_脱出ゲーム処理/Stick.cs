@@ -1,8 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+[RequireComponent(typeof (OVRGrabbable))]
+/// <summary>
+/// 鍵をつつく棒の処理
+/// </summary>
+public class Stick : MonoBehaviour {
+    OVRGrabbable grabbable;
 
-public class Stick : MonoBehaviour{
+/*デスクトップデバッグ用記述
     [SerializeField]
     private readonly float MOVING_PLACE_TIME = (float)0.5;//棒を上に上げる時間
 
@@ -16,6 +22,7 @@ public class Stick : MonoBehaviour{
     private float moveZ = (float)0.01;
 
     // Start is called before the first frame update
+
     void Start() {
         movingPlaceTimer = 99;//初期値
     }//Start
@@ -23,17 +30,17 @@ public class Stick : MonoBehaviour{
     // Update is called once per frame
     void Update() {
         //VR操作用に変更してください
-        if (Input.GetKeyDown(KeyCode.Space) && movingPlaceTimer > MOVING_PLACE_TIME * 2) {
+        if (Input.GetKeyDown(KeyCode.Space)&& movingPlaceTimer>MOVING_PLACE_TIME*2) {
             movingPlaceTimer = 0;
             this.GetComponent<BoxCollider>().isTrigger = false;
         }//if
 
-        if (movingPlaceTimer < MOVING_PLACE_TIME) {//棒を上に上げる処理
+        if(movingPlaceTimer < MOVING_PLACE_TIME) {//棒を上に上げる処理
             this.transform.localPosition = new Vector3(
                 this.transform.localPosition.x - moveX,
                 this.transform.localPosition.y + moveY,
                 this.transform.localPosition.z + moveZ);
-        } else if (movingPlaceTimer < MOVING_PLACE_TIME * 2) {//棒を下に下げる処理
+        }else if(movingPlaceTimer < MOVING_PLACE_TIME * 2) {//棒を下に下げる処理
             this.transform.localPosition = new Vector3(
                 this.transform.localPosition.x + moveX,
                 this.transform.localPosition.y - moveY,
@@ -43,10 +50,16 @@ public class Stick : MonoBehaviour{
         }//if
         movingPlaceTimer += Time.deltaTime;
     }//Update
+*/ //デスクトップデバッグ用記述
 
+    void Start(){
+        grabbable = this.GetComponent<OVRGrabbable>();
+        grabbable.enabled = false;
+    }
     private void OnCollisionEnter(Collision col) {
-        if (col.gameObject.tag == "Key") {
+        if(col.gameObject.tag == "Key") {
             col.gameObject.GetComponent<Rigidbody>().useGravity = true;
+            grabbable.enabled = true;
         }//if
     }//OnCollisionEnter
 }
