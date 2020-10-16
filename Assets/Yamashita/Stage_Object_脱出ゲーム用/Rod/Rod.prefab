@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8237779037452854240}
   - component: {fileID: 8230726170542288330}
   - component: {fileID: 7991326352427358962}
+  - component: {fileID: 7767958325390984757}
   m_Layer: 0
   m_Name: Rod
   m_TagString: Untagged
@@ -140,9 +141,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 8167629116557274957}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b2f60e625eec5e419de18daf2c8429e, type: 3}
+  m_Script: {fileID: 11500000, guid: d9ad940bdc7458146aee0b7d686336b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveX: 0.01
-  moveY: 0.01
-  moveZ: 0.01
+--- !u!114 &7767958325390984757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8167629116557274957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class NumericPanel : MonoBehaviour {
 
@@ -9,18 +10,18 @@ public class NumericPanel : MonoBehaviour {
     private float moveX;
     private float positionX;
     [SerializeField]
-    private Text text;
+    private TextMeshProUGUI text;
     public string Password { get; set; }
 
     void Start() {
-        correctAnswer = 123;//仮パスワード
+        correctAnswer = 579846132;//パスワード
         Password = "";
         moveX = this.transform.position.x - (float)1.8;
     }
 
     // Update is called once per frame
     void Update() {
-        if (Password.Length != 3)
+        if (Password.Length != 9)
             return;
         if (int.Parse(Password) == correctAnswer) {//パスワードが正解だった場合
             //合っていた場合の処理を記述する
@@ -30,6 +31,13 @@ public class NumericPanel : MonoBehaviour {
             }
         } else {//パスワードが違っていた場合
             Password = "";
+
+			Component[] numericInputs = GetComponentsInChildren<NumericInput>(true);
+			foreach (NumericInput botton in numericInputs)
+			{
+				botton.InputDiscorrectedResponse();
+			}
+
             //違っていた場合の処理を記述する
         }
     }

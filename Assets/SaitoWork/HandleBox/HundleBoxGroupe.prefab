@@ -477,9 +477,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HandlePivot: {fileID: 5822472340179039316}
-  Hand: {fileID: 0}
+  Hand: {fileID: 4826059532100231027, guid: 0b8bf3a433a32ec4a9f77d95ccf125b4, type: 3}
   futaPivot: {fileID: 5822472339869781160}
-  PasswordObject: {fileID: 0}
+  PasswordObject: {fileID: 1515359593742937038}
 --- !u!135 &5822472340179039320
 SphereCollider:
   m_ObjectHideFlags: 0

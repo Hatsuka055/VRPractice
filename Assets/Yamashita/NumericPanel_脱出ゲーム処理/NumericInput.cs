@@ -18,12 +18,18 @@ public class NumericInput : MonoBehaviour {
     void Update() {
 
     }
-    private void OnCollisionEnter(Collision col) {
+    private void OnCollisionExit(Collision col) {
         if(col.gameObject.tag == "Player") {
             
         }
         numericPanel.Password += numeric;
         Debug.LogError(numericPanel.Password);
-        Destroy(col.gameObject);
+		Debug.Log("現在入力中：" + numericPanel.Password);
+        //Destroy(col.gameObject);
+		this.gameObject.SetActive(false);
     }
+	public void InputDiscorrectedResponse()
+	{
+		this.gameObject.SetActive(true);
+	}
 }

@@ -59,7 +59,7 @@ public class Stick : MonoBehaviour {
     private void OnCollisionEnter(Collision col) {
         if(col.gameObject.tag == "Key") {
             col.gameObject.GetComponent<Rigidbody>().useGravity = true;
-            grabbable.enabled = true;
+            col.gameObject.GetComponent<OVRGrabbable>().enabled = true;
         }//if
     }//OnCollisionEnter
 }

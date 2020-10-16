@@ -14,7 +14,7 @@ public class HandleBox : MonoBehaviour
     {
         if (90 <= handleAngle)
         {
-            futaPivot.transform.rotation = Quaternion.Slerp(futaPivot.transform.rotation, Quaternion.Euler(90, 0, 0), 2 * Time.deltaTime);
+            futaPivot.transform.rotation = Quaternion.Slerp(futaPivot.transform.rotation, Quaternion.Euler(90, 90, 0), 2 * Time.deltaTime);
             if (!PasswordObject.activeSelf)
             {
                 PasswordObject.SetActive(true);
@@ -22,7 +22,7 @@ public class HandleBox : MonoBehaviour
         }
         else
         {
-            futaPivot.transform.rotation = Quaternion.Slerp(futaPivot.transform.rotation, Quaternion.Euler(0, 0, 0), 2 * Time.deltaTime);
+            futaPivot.transform.rotation = Quaternion.Slerp(futaPivot.transform.rotation, Quaternion.Euler(0, 90, 0), 2 * Time.deltaTime);
             if (PasswordObject.activeSelf)
             {
                 PasswordObject.SetActive(false);
