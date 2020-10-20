@@ -12,6 +12,7 @@ public class Door : MonoBehaviour
     [SerializeField] private float rotateSpeed = 1;
     private bool Unlocked = false;
     GameObject key;
+	[SerializeField] GameObject clearUI;
     private void Start()
     {
         //ToRotation = Quaternion.Euler(transform.parent.gameObject.transform.localRotation.x, 90, transform.parent.gameObject.transform.localRotation.z);
@@ -43,6 +44,7 @@ public class Door : MonoBehaviour
         Unlocked = true;
         yield return new WaitForSecondsRealtime(2);
         Destroy(key);
+		clearUI.SetActive(true);
 
     }
 

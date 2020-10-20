@@ -55,11 +55,13 @@ public class Stick : MonoBehaviour {
     void Start(){
         grabbable = this.GetComponent<OVRGrabbable>();
         grabbable.enabled = false;
+		grabbable.GetComponent<Collider>().enabled = false;
     }
     private void OnCollisionEnter(Collision col) {
         if(col.gameObject.tag == "Key") {
             col.gameObject.GetComponent<Rigidbody>().useGravity = true;
             col.gameObject.GetComponent<OVRGrabbable>().enabled = true;
+			col.gameObject.GetComponent<Collider>().enabled = true;
         }//if
     }//OnCollisionEnter
 }

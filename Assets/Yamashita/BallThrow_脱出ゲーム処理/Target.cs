@@ -11,6 +11,7 @@ public class Target : MonoBehaviour {
             //棒に重力を反映させる
             rod.GetComponent<Rigidbody>().useGravity = true;
             rod.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+			rod.GetComponent<Collider>().enabled = true;
         }//if
     }//OnCollisionEnter
 

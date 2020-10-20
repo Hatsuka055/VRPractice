@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Yamashita/Title/Title.unity
+    guid: 11915657ca1c6a94b82d0033e5e21a74
   - enabled: 1
     path: "Assets/Yamashita/StageObject_\u30AE\u30DF\u30C3\u30AF\u90E8\u5C4B/StageScene.unity"
     guid: b5e939671b1cd854eb220534511a48c2
